@@ -16,3 +16,29 @@ export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 export PATH="~/.composer/vendor/bin:$PATH"
+
+if [ $UID -eq 0 ]; then
+    PS1='\[\033[31m\]\u@\h\[\033[00m\]:\[\033[01m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\n\]\\$ '
+else
+    PS1='\[\033[36m\]\u@\h\[\033[00m\]:\[\033[01m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\n\]\\$ '
+fi
+
+# 日本語対応
+export LANG='ja_JP.UTF-8'
+
+alias ls="ls --color=auto"
+alias la="ls -a"
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias ..='cd ..'
+
+# git
+alias gb="git branch"
+alias gco='git checkout'
+alias gcm='git checkout master'
+alias gl='git pull'
+alias gc='git commit'
+alias gp='git push'
+alias gst='git status'
+alias ga='git add'
