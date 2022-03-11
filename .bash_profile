@@ -26,7 +26,7 @@ fi
 # 日本語対応
 export LANG='ja_JP.UTF-8'
 
-alias ls="ls --color=auto"
+alias ls="ls -G"
 alias la="ls -a"
 alias rm='rm -i'
 alias mv='mv -i'
