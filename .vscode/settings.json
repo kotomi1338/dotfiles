@@ -1,0 +1,81 @@
+{
+  "sync.gist": "741464eb950d7cb2f0c828a82047e9a3",
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "sync.forceUpload": true,
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "[c]": {
+    "editor.tabSize": 8
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[php]": {
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[java]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[js]": {
+    "editor.tabSize": 2
+  },
+  "[html.erb]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[tsx]": {
+    "editor.tabSize": 2
+  },
+  "[jsx]": {
+    "editor.tabSize": 2
+  },
+  "files.trimTrailingWhitespace": true,
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.rulers": [80, 100],
+  "editor.fontSize": 15,
+  "auto-rename-tag.activationOnLanguage": ["html"],
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 0,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "prettier.useTabs": true,
+  "namespaceResolver.sortOnSave": true,
+  "namespaceResolver.sortAlphabetically": true,
+  "namespaceResolver.showMessageOnStatusBar": true,
+  "namespaceResolver.sortNatural": true
+}
